@@ -1,5 +1,5 @@
 # Data-Science-Capstone-Healthcare
- Data Science Capstone Project Using Python and Tableau 10
+ Data Science Capstone Project To Build a model to accurately predict whether the patients in the dataset have diabetes or not? Using Python and Tableau 10
 
 DESCRIPTION
 
@@ -85,5 +85,5 @@ e. Create bins of these age values: 20-25, 25-30, 30-35, etc. Analyze different 
 
 Tableau Screen Shot-
 
-![Tableau](Tableau dashbord.PNG)
+![Tableau](Tableau Dashbord.Pdf)
 
