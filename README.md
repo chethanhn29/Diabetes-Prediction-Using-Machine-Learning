@@ -1,71 +1,89 @@
+# Data-Science-Capstone-Healthcare
+ Data Science Capstone Project Using Python and Tableau 10
 
-This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+DESCRIPTION
+
+Problem Statement
+NIDDK (National Institute of Diabetes and Digestive and Kidney Diseases) research creates knowledge about and treatments for the most chronic, costly, and consequential diseases.
+The dataset used in this project is originally from NIDDK. The objective is to predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset.
+Build a model to accurately predict whether the patients in the dataset have diabetes or not.
+Dataset Description
+The datasets consists of several medical predictor variables and one target variable (Outcome). Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and more.
+
+ 
+
+Variables	Description
+Pregnancies	Number of times pregnant
+Glucose	Plasma glucose concentration in an oral glucose tolerance test
+BloodPressure	Diastolic blood pressure (mm Hg)
+SkinThickness	Triceps skinfold thickness (mm)
+Insulin	Two hour serum insulin
+BMI	Body Mass Index
+DiabetesPedigreeFunction	Diabetes pedigree function
+Age	Age in years
+Outcome	Class variable (either 0 or 1). 268 of 768 values are 1, and the others are 0
+Project Task: Week 1
+Data Exploration:
+
+1. Perform descriptive analysis. Understand the variables and their corresponding values. On the columns below, a value of zero does not make sense and thus indicates missing value:
+
+• Glucose
+
+• BloodPressure
+
+• SkinThickness
+
+• Insulin
+
+• BMI
+
+2. Visually explore these variables using histograms. Treat the missing values accordingly.
+
+3. There are integer and float data type variables in this dataset. Create a count (frequency) plot describing the data types and the count of variables. 
+
+Project Task: Week 2
+Data Exploration:
+
+1. Check the balance of the data by plotting the count of outcomes by their value. Describe your findings and plan future course of action.
+
+2. Create scatter charts between the pair of variables to understand the relationships. Describe your findings.
+
+3. Perform correlation analysis. Visually explore it using a heat map.
+
+ 
+
+Project Task: Week 3
+Data Modeling:
+
+1. Devise strategies for model building. It is important to decide the right validation framework. Express your thought process.
+
+2. Apply an appropriate classification algorithm to build a model. Compare various models with the results from KNN algorithm.
+
+ 
+
+Project Task: Week 4
+
+Data Modeling:
+
+1. Create a classification report by analyzing sensitivity, specificity, AUC (ROC curve), etc. Please be descriptive to explain what values of these parameter you have used.
+
+Data Reporting:
+
+2. Create a dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following:
+
+a. Pie chart to describe the diabetic or non-diabetic population
+
+b. Scatter charts between relevant variables to analyze the relationships
+
+c. Histogram or frequency charts to analyze the distribution of the data
+
+d. Heatmap of correlation analysis among the relevant variables
+
+e. Create bins of these age values: 20-25, 25-30, 30-35, etc. Analyze different variables for these age brackets using a bubble chart.
 
 
-Dataset Description:
 
-The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
+Tableau Screen Shot-
 
-
-Pregnancies: Number of times pregnant
-Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-BloodPressure: Diastolic blood pressure (mm Hg)
-SkinThickness: Triceps skin fold thickness (mm)
-Insulin: 2-Hour serum insulin (mu U/ml)
-BMI: Body mass index (weight in kg/(height in m)^2)
-DiabetesPedigreeFunction: Diabetes pedigree function
-Age: Age (years)
-Outcome: Class variable (0 or 1) 268 of 768 are 1, the others are 0
-
-
-
-Problem Statement:
-Build a model to accurately predict whether the patients in the dataset have diabetes or not?
-
-
-Approach:
-
-Following pointers will be helpful to structure your findings.   
-
-1.	Perform descriptive analysis. It is very important to understand the variables and corresponding values. We need to think through - Can minimum value of below listed columns be zero (0)? On these columns, a value of zero does not make sense and thus indicates missing value.
-•	Glucose
-•	BloodPressure
-•	SkinThickness
-•	Insulin
-•	BMI
-
-
-
-      How will you treat these values?
-
-2.	Visually explore these variable, you may need to look for the distribution of these variables using histograms. Treat the missing values accordingly.
-
-3.	 We observe integer as well as float data-type of variables in this dataset. Create a count (frequency) plot describing the data types and the count of variables. 
-
-
-4.	Check the balance of the data by plotting the count of outcomes by their value. Describe your findings and plan future course of actions.
-
-5.	Create scatter charts between the pair of variables to understand the relationships. Describe your findings.
-
-6.	Perform correlation analysis. Visually explore it using a heat map.
-
-(Note: Do not focus on visualization aspects when working with SAS)
-
-7.	Devise strategies for model building. It is important to decide the right validation framework. Express your thought process. Would Cross validation be useful in this scenario?
-
-(Note: if you are working with SAS, ignore this question and perform stratified sampling to partition the data. Create strata of age for this.)
-
-8.	Apply an appropriate classification algorithm to build a model. Compare various models with the results from KNN.
-
-(Note: if you are working with SAS, ignore this question. Apply logistic regression technique to build the model.)
-
-9.	Create a classification report by analysing sensitivity, specificity, AUC(ROC curve) etc. Please try to be as descriptive as possible to explain what values of these parameter you settled for? any why?
-
-10.	Create a dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following: 
-
-a)	Pie chart to describe the diabetic/non-diabetic population
-b)	Scatter charts between relevant variables to analyse the relationships
-c)	Histogram/frequency charts to analyse the distribution of the data
-d)	Heatmap of correlation analysis among the relevant variables
-e)	Create bins of Age values – 20-25, 25-30, 30-35 etc. and analyse different variables for these age brackets using a bubble chart. 
+![Tableau](Tableau dashbord.PNG)
 
