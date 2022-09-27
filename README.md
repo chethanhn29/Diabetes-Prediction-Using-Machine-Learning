@@ -35,13 +35,20 @@ Outcome	Class variable (either 0 or 1). 268 of 768 values are 1, and the others 
 
 • SkinThickness
 
+
 • Insulin
 
 • BMI
 
 2. Visually explore these variables using histograms. Treat the missing values accordingly.
 
+![Screenshot (40)](https://user-images.githubusercontent.com/110838853/192419269-c40d445f-69a8-49e2-a98f-70ba8d5bd92c.png)
+
+
+
 3. There are integer and float data type variables in this dataset. Create a count (frequency) plot describing the data types and the count of variables. 
+![Screenshot (48)](https://user-images.githubusercontent.com/110838853/192419145-78730245-264d-49fb-bce6-987c05410698.png)
+
 
 ###  Week 2 : Data Exploration:
 
@@ -50,6 +57,8 @@ Outcome	Class variable (either 0 or 1). 268 of 768 values are 1, and the others 
 2. Create scatter charts between the pair of variables to understand the relationships. Describe your findings.
 
 3. Perform correlation analysis. Visually explore it using a heat map.
+
+
 
  
  ### Week 3 : Data Modeling:
@@ -69,6 +78,7 @@ Outcome	Class variable (either 0 or 1). 268 of 768 values are 1, and the others 
 2. Create a dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following:
 
 a. Pie chart to describe the diabetic or non-diabetic population
+![Screenshot (41)](https://user-images.githubusercontent.com/110838853/192419433-19dc3614-bd57-4fdd-877d-c8cf801265a9.png)
 
 b. Scatter charts between relevant variables to analyze the relationships
 
@@ -76,11 +86,14 @@ c. Histogram or frequency charts to analyze the distribution of the data
 
 d. Heatmap of correlation analysis among the relevant variables
 
+![Screenshot (42)](https://user-images.githubusercontent.com/110838853/192419316-73c8cbc9-5d86-4be0-8cbe-b8430a1538b3.png)
+
+
+
 e. Create bins of these age values: 20-25, 25-30, 30-35, etc. Analyze different variables for these age brackets using a bubble chart.
 
 
 
-Tableau Screen Shot-
+![Screenshot (43)](https://user-images.githubusercontent.com/110838853/192419382-d4f17f48-b84f-4d78-a547-fcdd7652576d.png)
 
-![Tableau](Tableau Dashbord.Pdf)
 
